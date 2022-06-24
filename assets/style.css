@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: inline;
+}
+
+.header{
+    background-color: #050A30;
+    padding: 30px 10px 0px 10px;
+}
+
+.logo img{
+    width: 20%;
+}
+
+nav {
+    padding: 3px 0px 1px 0px;
+    position: sticky;
+    top:0;
+    bottom: 0;
+    text-align: right;
+    z-index: 2;
+}
+
+nav a{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    background-color: #C60000;
+    color: #FFFFFF;
+    padding: 10px 10px;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+a:active {
+    background-color: #C60000;
+}
+
+#content{
+    padding: 30px 40px;
+    max-height: 150%;
+    height: auto;
+    overflow: auto;
+}
+
+.card-body{
+    height: 100%;
+    overflow: hidden;
+    padding: 15px;
+    
+}
+
+.card-body-header{
+    display:flex;
+}
+
+.card-body-desc{
+    margin-left:10px;
+}
+
+.card-desc-title{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-desc-category{
+    font-size: 12px;
+    margin-top:0;
+}
+
+.card-desc-date{
+    font-size: 12px;
+}
+
+.card-desc-img img {
+    width: max-content;
+}
+
+.card-body-abstract{
+    text-align: justify;
+    font-size: 14px;
+}
+
+footer{
+    color: white;
+    background-color: #050A30;
+    text-align: center;
+    position: fixed;
+    padding-top:5px;
+    bottom: 0;
+    width: 100%;
+}
